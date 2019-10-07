@@ -15,6 +15,7 @@ const SpotSchema = new mongoose.Schema({
     },
 });
 
+// to add a custom field but not stored in mongoDb
 SpotSchema.virtual('thumbnail_url').get(function () {
     return `http://localhost:3333/files/${this.thumbnail}`
 });
