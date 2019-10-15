@@ -14,7 +14,7 @@ const io = socketio(server);
 
 
 // to define mongoDb connection
-mongoose.connect('mongodb+srv://omnistack:omnistack@omnistack-uyaue.mongodb.net/app-database?retryWrites=true&w=majority', {
+mongoose.connect('mongodb+srv://omnistack:omnistack@freecluster-uyaue.mongodb.net/coworking-db?retryWrites=true&w=majority', {
     useNewUrlParser: true,
     useUnifiedTopology: true,
 });
